@@ -1,6 +1,6 @@
 .testimonial {
     font-size: 1.2rem;
-    margin: 48px 0;
+    margin: 3rem 0;
   }
   
   .testimonial__list {
@@ -9,7 +9,7 @@
   }
   
   .testimonial:first-of-type {
-    margin-top: 96px;
+    margin-top: 6rem;
   }
   
   /* testimonial image container */
@@ -18,7 +18,7 @@
     max-width: 580px;
     display: inline-block;
     vertical-align: middle;
-    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 5px 3px rgba(19, 4, 4, 0.3);
   }
 
   .testimonial__image{
@@ -65,7 +65,7 @@
   }
   
   .testimonial__text {
-    margin: 3px;
+    margin: 0.2rem;
   }
   
   
