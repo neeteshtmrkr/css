@@ -121,8 +121,8 @@
 /* features */
 #key-features{
     background: #ff1b68;
-    margin: 5rem;
-    padding: 1rem;
+    /* margin: 5rem; */
+    padding: 1rem; 
 }
 
 #key-features .section-title{
@@ -138,8 +138,8 @@
 }
 
 .key-feature{
-    display: inline-block;
-    width: 30%;
+    /* display: inline-block; */
+    width: 100%;
     vertical-align: top;
 }
 
@@ -159,7 +159,14 @@
     color: #fff;
     font-size: 1.2rem;
 }
-
+/* Media Queries KEy Features */
+@media(min-width:40rem){
+  .key-feature{
+    display: inline-block;
+    width: 30%;
+    max-width: 25rem;
+  }
+}
 
 /* h1{
     font-family: sans-serif;
