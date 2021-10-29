@@ -100,7 +100,7 @@ body{
 /* Button */ 
 .button:hover,
 .button:active{
-    background: rgb(158, 122, 122);
+    background: #fff;
     color: #0e4f1f;
 }
 .button{
@@ -117,6 +117,11 @@ body{
 .button:focus{
     outline: none;
 }
+
+.open{
+    display: block !important;
+}
+
 
 /* Footer */
 .main-footer{
