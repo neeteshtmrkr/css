@@ -31,7 +31,7 @@
     font-size: 1.6rem;
 }
 
-@media(min-width:40rem){
+@media (min-width:40rem) and ( min-height:60rem){
     #prodcut-overview{
         height: 40vh;
         background: 50% 25%;
@@ -99,7 +99,7 @@
   }
 
 /* Media Queries Plan */
-@media(min-width:40rem){
+@media(min-width:40rem) and (orientation : landscape){ 
   .plan{
     display: inline-block;
     width: 30%;
